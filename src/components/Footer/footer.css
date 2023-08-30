@@ -1,0 +1,58 @@
+.footerContainer {
+    padding: 64px 40px 0 40px;
+    gap: 64px;
+    background-color: #131313;
+    color: white;
+    .footer1stinner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 95px;
+        width: 100%;
+        .inner1Btn{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .innerBtn{
+                background-color: #FF6666 !important;
+                margin-left: 1rem;
+            }
+        }
+    }
+    .vertical-line {
+        border-top: 1px solid #FFFFFF;
+        width: 100%;
+    }
+    .contactDetail{
+        display: flex;
+        align-items: center;
+        margin: 0.5rem 0;
+        flex-direction: row;
+    }
+    .footerListItem {
+        padding: 0.2rem 0;
+    }
+    .footBtn{
+        background: linear-gradient(90deg, #4E8D40 0%, #77BE43 100%);
+        margin: 1rem 0;
+    }
+    .contactImg{
+        margin: 1rem 0;
+        .footerConnectBtn{
+            width: 25px;
+            height: 25px;
+            margin-right: 0.5rem;
+        }
+    }
+    .footerEnd{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 2rem;
+        .brandingFooter{
+            font-size: 14px !important;
+            font-weight: 500;
+            line-height: 17px;
+        }
+    }
+}

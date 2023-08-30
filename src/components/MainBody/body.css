@@ -1,0 +1,412 @@
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+}
+.firstLayout {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.subContainer1 {
+    height: 350px;
+    .subInner1{
+        height: 250px;
+        margin-top: 2rem;
+    }
+}
+.typo1 {
+    width: 725px;   
+    height: 102px;
+
+    font-family: Montserrat !important;
+    font-size: 32px !important;
+    font-weight: 600 !important;
+    line-height: 51px !important;
+    letter-spacing: 0em !important;
+    text-align: center;
+
+}
+.branding {
+    color: #77BE43;
+}
+.btnCommon {
+    width: 9.5rem;
+    text-transform: capitalize !important;
+}
+.btn1 {
+    background: linear-gradient(90deg, #77BE43 0%, #4E8D40 100%);
+    
+}
+.btn2 {
+    background: #131313 !important;
+    margin-left: 1rem !important;
+}
+
+.subContainer2 {
+    .subInner2 {
+        .typo2 {
+            width: 100%;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 22px;
+            text-align: left;
+        }
+        .typo3 {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 51px;
+            text-align: left;
+            margin-top: 0.8rem;
+        }
+        .typo4 {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: left;
+            margin-top: 0.8rem;
+        }
+    }
+    .subInner3 {
+        margin: 2rem 0;
+        .imgCont{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 13px;
+            .cardLayout {
+                width: 240px;
+                height:  84px;
+                padding: 0px 16px 0px 16px;
+                border-radius: 8px;
+                background: #F8F8FC;
+                margin: 0.1rem;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                .cardImg{
+                    object-fit: contain;
+                    border-radius: 5px;
+                }
+            }
+            .lastCardLayout{
+                width: 240px;
+                height:  84px;
+                padding: 0px 16px 0px 16px;
+                border-radius: 8px;
+                background: #131313;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0.1rem;
+            }
+        }
+    }
+}
+
+.subContainer3{
+    margin: 3rem 0;
+    .subInner3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .desc {
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: center;
+            width: 126px;
+            height: 44px;
+        }
+    }
+}
+.subContainer4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    margin: 3rem 0;
+    .typo1{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 51px;
+        text-align: left;
+        color: #131313;
+        display: inline;
+        .typo2{
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 51px;
+            text-align: left;
+            color: #77BE43;
+            display: inline;
+        }
+    }
+    .typo3 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        color: #131313;
+        margin-top: 0.5rem;
+    }
+    .typo4{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 0.5rem;
+    }
+    .formdiv {
+        background-color: #FFFFFF;
+        .innerForm {
+            width: 100%;
+            height: 100%;
+            padding: 1rem;
+            .texts{
+                background-color: rgb(243 240 240);
+                margin-top: 1.5rem;
+                border-radius: 5px;
+            }
+            .textarea {
+                width: 98%;
+            }
+            .cont {
+                margin-top: 1.5rem;
+                .contactus{
+                    display: inline;
+                    flex-direction: row;
+                    .contact {
+                        display: inline;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        text-align: center;
+                    }
+                }
+            }
+            .submitBtn {
+                background: linear-gradient(90deg, #77BE43 0%, #4E8D40 100%);
+                width: 200px;
+                height: 38px;
+                padding: 10px 16px 10px 16px;
+                border-radius: 5px;
+                gap: 16px;
+                margin-top: 1.5rem;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+.subContainer5 {
+    .cont5inner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        .typo1{
+            font-size: 28px !important;
+            font-weight: 600 !important;
+            line-height: 51px !important;
+            text-align: left !important;
+            color: #131313;
+            display: inline-flex;
+            height: 50px;
+            .typo2 {
+                font-size: 28px !important;
+                font-weight: 700 !important;
+                line-height: 51px !important;
+                text-align: left !important;
+                color:  #77BE43;
+            }
+        }
+    }
+    .imgCont5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 13px;
+        margin: 2rem 0;
+        .cardLayout5 {
+            border-radius: 8px;
+            border: 0.5px solid rgb(217, 250, 217);
+            position: relative;
+            .cardImg5 {
+                width: 340px;
+                height: 180px;
+                border-radius: 5px;
+            }
+            .imgOver {
+                position: absolute;
+                width: 71px;
+                height: 27px;
+                top: 16px;
+                left: 0;
+                padding: 4px 12px 4px 12px;
+                border-radius: 0px 5px 5px 0px;
+                gap: 10px;
+                background: #FF6666;
+                color: #FFFFFF;
+            }
+            .areaDesc {
+                padding: 1rem;
+                .countArea {
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 26px;
+                    text-align: left;
+                }
+                .areaLocation {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    text-align: left;
+                }
+                .locBtn{
+                    display: flex;
+                    justify-content: space-between;
+                    text-transform: capitalize;
+                    margin-top: 2rem;
+                    color: #77BE43;
+                    background-color: #F8F8FC;
+                }
+            }
+        }
+    }
+}
+.subContainer6 {
+    margin: 3rem 0;
+    .subInner6{
+        width: 16%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin: 1rem;
+        text-align: center;
+    }
+    .cont6inner{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 2rem;
+        .typo1{
+            font-size: 28px !important;
+            font-weight: 600 !important;
+            line-height: 51px !important;
+            color: #131313;
+            display: inline;
+            height: 50px;
+            .typo2 {
+                display: inline;
+                font-size: 28px !important;
+                font-weight: 700 !important;
+                line-height: 51px !important;
+                color:  #77BE43;
+            }
+        }
+    }
+    .desc6{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+.subContainer7 {
+    .container5Header{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 26px;
+        text-align: left;
+        color: #77BE43;
+    }
+    .cont5inner{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        .typo1{
+            font-size: 28px !important;
+            font-weight: 600 !important;
+            line-height: 51px !important;
+            text-align: left !important;
+            color: #131313;
+            display: inline-flex;
+            height: 50px;
+        }
+    }
+    .imgCont5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 13px;
+        margin: 3rem 0;
+        .cardLayout5 {
+            width: 340px;
+            border: 0.5px solid rgb(217, 250, 217);
+            .cardImg5 {
+                width: 340px;
+                height: 180px;
+            }
+            .areaDesc {
+                .timeArea {
+                    padding-top: 1rem;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    text-align: left;
+                    color: #77BE43;
+                }
+                .articleHead{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin: 0.6rem 0;
+                }
+                .articleDesc {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 22px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+.subContainer8{
+    margin: 3rem 0;
+    .container8Header{
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 38px;
+        text-align: left;
+    }
+    .placesContainer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 2rem;
+        .area8name {
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 26px;
+            text-align: left;
+        }
+        .placeName {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: left;
+            padding: 0 10px;
+        }
+    }
+}

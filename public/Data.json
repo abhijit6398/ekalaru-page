@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "Hyderabad",
+        "img": "/assets/1.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 2,
+        "name": "Warangal",
+        "img": "/assets/2.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 3,
+        "name": "Nizamabad",
+        "img": "/assets/3.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 4,
+        "name": "Adilabad",
+        "img": "/assets/4.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 5,
+        "name": "Mahbubnagar",
+        "img": "/assets/5.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 6,
+        "name": "Medak",
+        "img": "/assets/6.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 7,
+        "name": "Jagtial",
+        "img": "/assets/1.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 8,
+        "name": "Bhuvanagiri",
+        "img": "/assets/2.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 9,
+        "name": "Nalgonda",
+        "img": "/assets/3.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 10,
+        "name": "Karimnagar",
+        "img": "/assets/4.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 11,
+        "name": "Vikarabad",
+        "img": "/assets/5.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 12,
+        "name": "Zheerabad",
+        "img": "/assets/6.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 13,
+        "name": "Shamshabad",
+        "img": "/assets/1.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 14,
+        "name": "Devarakonda",
+        "img": "/assets/2.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 15,
+        "name": "Sangareddy",
+        "img": "/assets/3.jpg",
+        "landCount": "50+ Land"
+    },
+    {
+        "id": 16,
+        "name": "Hazimpet",
+        "img": "/assets/4.jpg",
+        "landCount": "50+ Land"
+    }
+]

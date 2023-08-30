@@ -1,0 +1,58 @@
+.topbar {
+    height: 70px;
+    background-color: #FFFFFF;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+.topBarLeft {
+    display: flex;
+    align-items: center;
+    min-height: 70px;
+    max-height: 70px;
+}
+.logoWrapper{
+    width: 180px;
+    margin-top: -1px; 
+    margin-left: 20px;
+}
+.logoMain{
+    object-fit: contain;
+    width: 110px;
+    max-height: 70px;
+    min-height: 70px;
+    margin-bottom: 0.3rem;
+    margin-left: -0.1rem;
+}
+.topBarRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 70px;
+    min-height: 70px;
+    /* margin-right: 1rem; */
+    width: 100%;
+}
+.connectBtn {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 1rem;
+}
+.menuButton {
+    border-left: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 0.6rem;
+    font-size: 0.9rem !important;
+}
+.menuIcon {
+    margin: 0 0.6rem !important;
+    font-size: 0.9rem !important;
+}
+.listBtn {
+    text-transform: capitalize !important;
+}
